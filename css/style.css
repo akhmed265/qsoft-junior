@@ -52,3 +52,26 @@ body {
 .profile img {
     margin-left: 10px;
 }
+
+.content-title {
+    font-weight: 500px;
+    font-size: 36px;
+    font-weight: 160%;
+    margin-bottom: 30px;
+    color: #121920;
+}
+
+.partners {
+    list-style: none;
+    padding-left: 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-gap: 30px;
+}
+
+.partner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
